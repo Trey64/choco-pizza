@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+
+.delicious {
+  font-family: 'Yellowtail', cursive;
+}
+
+.teko{
+  font-family: 'Teko', sans-serif;
+}
+
+.icons {
+  display: inline;
+  float: right;
+}
+
+.dashes {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}

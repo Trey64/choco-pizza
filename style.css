@@ -5,12 +5,45 @@ body {
   margin-left: 200px;
 }
 
+.logo {
+  float: left;
+  padding: 10px;
+  }
+
+.best {
+  position: absolute;
+  color: gray;
+  font-size: 12px;
+  top: 58px;
+  left: 265px;
+}
+
 .delicious {
   font-family: 'Yellowtail', cursive;
 }
 
 .teko{
+  position: absolute;
+  top: 115px;
   font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+
+.date {
+  font-size: 18px;
+  position: relative;
+  top: 45px;
+  font-family: 'Teko', sans-serif;
+  color: gray;
+}
+
+
+.print  {
+  position: relative;
+  left: 920px;
+  font-size: 12px;
+  color: gray;
+  display: inline-block;
 }
 
 .icons {
@@ -26,23 +59,55 @@ body {
     border: 0;
 }
 
+.hero {
+  display: block;
+  margin: auto;
+}
+
 .directions {
   text-indent: 50px;
+  font-size: 18px;
 }
 
 
+.notepad {
+  position: relative;
+}
+
+.ingredients {
+  background-image: url("img/notepad-bg.png");
+  background-repeat: no-repeat;
+}
+
+.list {
+  display:inline-block;
+  list-style: none;
+  padding: 20px 0 0 70px;
+}
+
+.vanessa {
+  float: left;
+  padding: 10px;
+}
+
+.share {
+  float: right;
+  margin: 0 0 10px 10px;
+  color: white;
+  background-color: #D4664F;
+  font-size: 15px;
+  height: 60px;
+  width: 170px;
+}
+
 .small-logo {
   position: relative;
-  left: 455px;
+  left: 495px;
   text-align: center;
 }
 
 .lines {
   width: 40%;
-}
-
-.linesandlogo {
-  display: inline;
 }
 
 .copyright {
